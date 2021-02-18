@@ -43,7 +43,7 @@ workflows:
             script: keychain initialize
           - name: Fetch signing files
             script: |
-                app-store-connect fetch-signing-files "com.ahortacwb.ahorta" \  # Fetch signing files for specified bundle ID (use "$(xcode-project detect-bundle-id)" if not specified)
+                app-store-connect fetch-signing-files "Ahorta - com.ahortacwb.ahorta" \  # Fetch signing files for specified bundle ID (use "$(xcode-project detect-bundle-id)" if not specified)
                 --type IOS_APP_DEVELOPMENT \  # Specify provisioning profile type*
                 --create  # Allow creating resources if existing are not found.      
           - name: Set up signing certificate
