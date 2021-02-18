@@ -1,26 +1,12 @@
 # Check out https://docs.codemagic.io/getting-started/building-a-native-ios-app/ for more information
 # Please review and update values in curly braces
 
-# workflows:
-#     ios-app:
-#         name: iOS App
-#         environment:
-#             vars:
-#                 XCODE_WORKSPACE: "ahorta"
-#                 XCODE_SCHEME: "ahorta"
-#             xcode: latest
-#             cocoapods: default
-#         scripts:
-#             - xcodebuild build -project "$XCODE_PROJECT.xcodeproj" -scheme "$XCODE_SCHEME" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
-#         artifacts:
-#             - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
-#             - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+workflows:
+    ios-app:
+        name: iOS App
+        environment:
+            vars:
 
-            workflows:
-  ios-app:
-    name: ios_workflow
-    environment:
-      vars:
         XCODE_WORKSPACE: "ahorta.xcworkspace"  # PUT YOUR WORKSPACE NAME HERE
         XCODE_SCHEME: "ahorta" # PUT THE NAME OF YOUR SCHEME HERE
         APP_STORE_CONNECT_ISSUER_ID: "Encrypted(Z0FBQUFBQmdMWUtmUmxHVVg1VFM4WFdycEw2V1ZlcmhMeG1Yb0FaaE1WZVczRWs2aU9KZU96VU00REZRWTJqV1k4enBHX0RnNDlBTHJ6bkRlV0ZTNGlnUE43X2dibmlmSDNBWnJRSUFGVXNJQWR6TUxsZWlZMElWdElralpwMmIwX0hhYjQwU3lwRjg=)"
