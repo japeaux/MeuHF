@@ -4,8 +4,8 @@
 workflows:
     ios-app:
         name: iOS App
-    environment:
-      vars:
+        environment:
+            vars:
         XCODE_WORKSPACE: "ahorta.xcworkspace"  # PUT YOUR WORKSPACE NAME HERE
         XCODE_SCHEME: "ahorta" # PUT THE NAME OF YOUR SCHEME HERE
         APP_STORE_CONNECT_ISSUER_ID: "Encrypted(Z0FBQUFBQmdMWUtmUmxHVVg1VFM4WFdycEw2V1ZlcmhMeG1Yb0FaaE1WZVczRWs2aU9KZU96VU00REZRWTJqV1k4enBHX0RnNDlBTHJ6bkRlV0ZTNGlnUE43X2dibmlmSDNBWnJRSUFGVXNJQWR6TUxsZWlZMElWdElralpwMmIwX0hhYjQwU3lwRjg=)"
