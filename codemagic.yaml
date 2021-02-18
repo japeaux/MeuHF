@@ -77,5 +77,5 @@ workflows:
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
     publishing:
       app_store_connect:
-        apple_id: your_apple_id@example.com  # PUT YOUR APPLE ID HERE
+        apple_id: apple_id: diwoapple@gmail.com 
         password: Encrypted(Z0FBQUFBQmdMamdCcW12WWFraW9wUURWXzVPM0Z3cUxGazJfWXRCMjZhOHJtTmFVMWxELUxuWUNZSGNZNFpHSGhIY3kybWtvdHdqWjRPS3hoRk9Rc181YUpTbUU3aHR4MnhUdTNyV2RqTzJGdW9EbmQzQi1fRDA9) # PUT YOUR APP-SPECIFIC-PASSWORD HERE https://support.apple.com/en-us/HT204397
