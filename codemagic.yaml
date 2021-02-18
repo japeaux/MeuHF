@@ -17,7 +17,7 @@
 #             - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
 
             workflows:
-  ios-workflow:
+  ios-app:
     name: ios_workflow
     environment:
       vars:
